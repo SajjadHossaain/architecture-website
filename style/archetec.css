@@ -57,7 +57,8 @@ main > section{
     font-size: 3rem;
 }
 .nav-links{
-    
+    text-decoration: none;
+    font-weight: 500;
 }
 .nav-item{
     list-style: none;
@@ -179,6 +180,21 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* footer */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100px;
+    margin-top: 130px;
+}
+.footer-content{
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    max-width: 650px;
+    align-items: center;
+}
 /* responsive media query */
 
 /* small device */
@@ -204,7 +220,12 @@ main > section{
         margin-top: 15px;
         margin-left: 15px;
     }
-    
+   .footer-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 }
 
 /* medium size device */
@@ -223,5 +244,10 @@ main > section{
     #experience-badge{
         margin-top: 15px;
         margin-left: 15px;
+    }
+    .footer-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
 }
